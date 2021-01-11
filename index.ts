@@ -4,15 +4,19 @@ import Api from 'wikifolio'
 (async () => {
 	console.warn('Your credentials will not be stored.')
 
-	const {email} = await prompts({
+  const arg = (process.argv || []).slice(2)
+
+  const {email} = await prompts({
 		type: 'text',
 		name: 'email',
+    initial: arg[0],
 		message: 'Wikifolio email'
 	})
 
 	const {password} = await prompts({
 		type: 'password',
 		name: 'password',
+    initial: arg[1],
 		message: 'Wikifolio password'
 	})
 
