@@ -11,14 +11,14 @@ import Api from 'wikifolio'
     name: 'email',
     initial: arg[0],
     message: 'Wikifolio email'
-	})
+  })
 
 	const {password} = await prompts({
     type: 'password',
     name: 'password',
     initial: arg[1],
     message: 'Wikifolio password'
-	})
+  })
 
   const api = new Api({email, password})
 
