@@ -15,7 +15,7 @@ yarn install
 yarn start
 ```
 
-### Run: npm native
+### Run: npm native (tested on node v14.16.0; npm v 6.14.11)
 
 ```bash
 git clone https://github.com/RienNeVaPlus/wikifolio-example
