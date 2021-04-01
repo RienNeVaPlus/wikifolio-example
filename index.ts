@@ -25,21 +25,21 @@ import Api from 'wikifolio'
   const wikifolio = api.wikifolio('wfobserver')
   console.log( await wikifolio.details() )
 
-  // const wikifolio = wiki.wikifolio('wfobserver')
+  // const wikifolio = api.wikifolio('wfobserver')
   // console.log( await wikifolio.price() )
 
-  // const wikifolio = wiki.wikifolio('wf01smylel')
+  // const wikifolio = api.wikifolio('wf01smylel')
   // console.log( await wikifolio.trades({pageSize: 100, page: 1}) )
 
-  // const wikifolio = wiki.wikifolio('wfobserver')
+  // const wikifolio = api.wikifolio('wfobserver')
   // console.log( await wikifolio.portfolio() )
 
-  // const wikifolios = await wiki.search({query: 'Supervisor'})
+  // const wikifolios = await api.search({query: 'Supervisor'})
   // console.log( wikifolios )
 
-  // const user = wiki.user('riennevaplus')
+  // const user = api.user('riennevaplus')
   // console.log( await user.details() )
 
-  // const user = wiki.user('riennevaplus')
+  // const user = api.user('riennevaplus')
   // console.log( await user.wikifolios() )
 })()
