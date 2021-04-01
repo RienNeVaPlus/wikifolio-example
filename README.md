@@ -13,6 +13,7 @@ git clone https://github.com/RienNeVaPlus/wikifolio-example
 cd wikifolio-example
 yarn install
 yarn start
+```
 
 ### Run: npm native
 
@@ -21,3 +22,4 @@ git clone https://github.com/RienNeVaPlus/wikifolio-example
 cd wikifolio-example
 npm install
 npm start
+```
