@@ -431,9 +431,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.15:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 mime-db@1.44.0:
   version "1.44.0"
@@ -715,10 +715,10 @@ whatwg-url@^8.0.0:
     tr46 "^2.0.2"
     webidl-conversions "^5.0.0"
 
-wikifolio@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/wikifolio/-/wikifolio-0.3.1.tgz#619a0c0099d63fc87adb48a99a5d6b89c0e9ba0e"
-  integrity sha512-C1PZPQsAT6t6wAJzUsFeKNJlFMl0rYXMI2hLccDbZn76wNwjessD2ejjFZs9JSwlfvm7gof/BgAOXT56yqPXkw==
+wikifolio@latest:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/wikifolio/-/wikifolio-0.3.2.tgz#1668326fbbbd4e6ce27c464d81001a514d011ac8"
+  integrity sha512-lZg5BHJIpYik86ZP0O8YXoJG8f9ygcVCwsX8wKAkyKDgXegHauMQyu51WhlxJGmnQjqkDrcOZQ+0PQpYerg2zw==
   dependencies:
     "@types/jsdom" "^16.2.3"
     "@types/request-promise-native" "^1.0.17"
